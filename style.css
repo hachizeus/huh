@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f0f4f8;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#hoverArea:hover {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.gallery-img {
+  display: none;
+  width: 150px;
+}
+
+.gallery-img.active {
+  display: block;
+}
+
+.tab-content {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+#formFeedback {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: crimson;
+}
